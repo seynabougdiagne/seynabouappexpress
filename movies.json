@@ -1,25 +1,20 @@
 [ { 
 "id" : 1,
-"title": "Tulsa King",
-"synopsis": "Dans le monde des dealers.",
-"year": 2022,
-"director": "TAYLOR SHERIDAN"
+"nom": "Section Genius",
+"synopsis": "Dans le monde des adolescents."
 },
 
 { 
 "id" : 2,
-"title": "Fast and Furious",
-"synopsis": "Dans le monde des dealers.",
-"year": 2021,
-"director": "Justin Lin"
+"nom": "Mercredi",
+"synopsis": "Une magnifique petite fille"
+
 },
 
 { 
 "id" : 3,
-"title": "TOP GUN",
-"synopsis": "L'ecole des pilotes d'elite.",
-"year":  1986,
-"director": "Tony Scott"
+"nom": "Vol de nuit",
+"synopsis": "USA-SENEGAL en 2secondes"
 }
 
 ]

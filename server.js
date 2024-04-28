@@ -41,19 +41,6 @@ app.delete("/movies", (req, res) => {
         res.status(200).json({"movie deleted": deletedMovie});
 }); 
 
-const mongoose = require('mongoose');
-
-mongoose.connect('mongodb://localhost:27017/FILMS', { useNewUrlParser: true, useUnifiedTopology: true });
-
-const db = mongoose.connection;
-
-db.on('open', () => {
-  console.log('Connecté à MongoDB !');
-});
-
-db.on('error', (err) => {
-  console.error('Erreur de connexion à MongoDB:', err);
-});
 
 
 app.listen(port, 

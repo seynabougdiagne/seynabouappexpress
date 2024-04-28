@@ -3,8 +3,7 @@ module.exports = mongoose => {
       id: Number, 
       nom: String,
       synopsis: String,
-      sortie: Number, 
-      realisateur: String, 
+
     });
   
     filmSchema.method("toJSON", function () {

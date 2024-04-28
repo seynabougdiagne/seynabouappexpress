@@ -13,8 +13,6 @@ exports.create = (req, res) => {
     id: req.body.id,
     nom: req.body.nom,
     synopsis: req.body.synopsis,
-    realisateur: req.body.realisateur,
-    sorti: req.body.sorti ? req.body.sorti : false,
   });
 
   // Enregistrer le film dans la base de données
